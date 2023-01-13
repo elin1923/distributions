@@ -159,10 +159,10 @@ curl -fsSL https://deb.nodesource.com/setup_19.x | sudo -E bash - &&\
 sudo apt-get install -y nodejs
 ```
 
-##### Using Debian, as root
+##### Using Debian
 ```sh
 curl -fsSL https://deb.nodesource.com/setup_19.x | bash - &&\
-apt-get install -y nodejs
+sudo apt-get install -y nodejs
 ```
 
 **Node.js v18.x**:
